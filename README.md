@@ -1,134 +1,268 @@
-# ClariDoc
-Información pública y trámites en lenguaje claro (ODS 11)
+
 ClariDoc
-Firma lo que entiendes!
-App móvil que usa Google Gemini para explicar documentos (contratos, recetas, recibos y trámites) en lenguaje sencillo, por voz, y avisar qué es riesgoso y qué hay que hacer.
-Hackatón	Hackatón Nacional UVM 2026: ¡Impulsa el Futuro con IA!
-Equipo	Sinapsis
-Campus	Coyoacán
-Integrantes	Rubí, Luis Felipe Ruiz Dorantes y Octavio
+¡Firma lo que entiendes!
+Información pública y trámites en lenguaje claro | ODS 10 y ODS 11
 
-1. Resumen ejecutivo
-ClariDoc es una app móvil que ayuda a entender documentos difíciles, como contratos, recetas, recibos y trámites. La persona toma una foto y, con Google Gemini, recibe una explicación en lenguaje sencillo, una lectura en voz alta, un semáforo de riesgo y los pasos y fechas pendientes. Apoya a adultos mayores, personas con baja alfabetización y migrantes. Es innovadora porque une visión, lenguaje y voz de Gemini en un solo flujo pensado para reducir la desigualdad en el acceso a la información.
+INFORMACIÓN DEL PROYECTO
 
-3. Boceto y concepto
+Hackatón: Hackatón Nacional UVM 2026: ¡Impulsa el Futuro con IA!
+Equipo: Sinapsis
+Campus: Coyoacán
+Aplicación: ClariDoc
+
+Integrantes:
+- Rubí Nayeli Egoavil Sinche
+- Luis Felipe Ruiz Dorantes
+- Octavio Hernández Carrasco
+
+--------------------------------------------------
+
+1. RESUMEN EJECUTIVO
+
+ClariDoc es una aplicación que utiliza Google Gemini para ayudar a las personas a comprender documentos difíciles, como contratos, recetas, recibos y trámites. Mediante una fotografía, ofrece explicaciones sencillas, lectura en voz alta, un semáforo de atención y los pasos y fechas importantes. Está dirigida especialmente a adultos mayores, personas con baja alfabetización y migrantes. Su objetivo es facilitar el acceso a la información y promover la inclusión mediante inteligencia artificial.
+
+2. BOCETO Y CONCEPTO
+
 El problema
-Millones de personas firman o aceptan documentos que no comprenden: contratos de renta con cláusulas abusivas, recetas con indicaciones confusas o trámites con requisitos poco claros. El lenguaje legal y burocrático es una barrera que afecta especialmente a las personas con menor escolaridad, los adultos mayores y quienes enfrentan dificultades para comprender textos técnicos. Esta situación puede generar decisiones mal informadas, pérdidas económicas y exclusión.
-De acuerdo con el Instituto Nacional de Estadística y Geografía (INEGI, 2020), en México el grado promedio de escolaridad de la población de 15 años y más era de 9.7 años, equivalente a poco más de la secundaria. Esta cifra permite dimensionar la importancia de ofrecer información clara y accesible para que las personas puedan comprender documentos relacionados con su vida cotidiana.
+
+Muchas personas reciben o firman documentos cuyo lenguaje legal, técnico o burocrático resulta difícil de comprender. Esto puede provocar decisiones mal informadas, pérdidas económicas y dificultades para realizar trámites.
+
+De acuerdo con el Instituto Nacional de Estadística y Geografía (INEGI, 2020), en México el grado promedio de escolaridad de la población de 15 años y más era de 9.7 años. Esta cifra permite dimensionar la importancia de ofrecer información clara y accesible.
+
 Fuente: INEGI (2020).
 
-La propuesta de solución
-Una app donde la persona fotografía su documento y recibe, en segundos:
-•	una explicación en lenguaje sencillo,
-•	una lectura en voz alta,
-•	un semáforo de riesgo (verde, amarillo y rojo) con los puntos de atención,
-•	los pasos a seguir y las fechas importantes.
-Alineación con los ODS
-ODS	Cómo contribuye
-ODS 10: Reducción de las desigualdades	Facilita que adultos mayores, personas con baja escolaridad y migrantes comprendan documentos importantes mediante explicaciones sencillas y lectura en voz alta, promoviendo la inclusión y la igualdad de oportunidades.
-ODS 11: Ciudades y comunidades sostenibles	Facilita la comprensión de contratos de arrendamiento y documentos relacionados con servicios básicos, ayudando a las personas a identificar sus obligaciones, fechas y posibles riesgos al tomar decisiones sobre su vivienda y comunidad.
+Propuesta de solución
+
+ClariDoc permite fotografiar o subir un documento para recibir:
+
+- Una explicación en lenguaje sencillo.
+- Una lectura en voz alta.
+- Un semáforo de atención (verde, amarillo y rojo).
+- Los pasos a seguir y las fechas importantes.
+
+Alineación con los Objetivos de Desarrollo Sostenible
+
+ODS 10: Reducción de las desigualdades.
+Facilita que adultos mayores, personas con baja escolaridad y migrantes comprendan documentos importantes mediante explicaciones sencillas y lectura en voz alta.
+
+ODS 11: Ciudades y comunidades sostenibles.
+Ayuda a comprender contratos de arrendamiento y documentos relacionados con servicios básicos, facilitando decisiones informadas sobre la vivienda y la comunidad.
 
 Relación del proyecto con las metas de los ODS
-ClariDoc contribuye a la meta 10.2 del ODS 10 al promover la inclusión de personas con distintas condiciones educativas, edades y orígenes, facilitando el acceso a información comprensible. Asimismo, se relaciona con la meta 11.1 del ODS 11 al ayudar a comprender contratos de arrendamiento y documentos relacionados con servicios básicos, favoreciendo que las personas tomen decisiones informadas sobre su vivienda y comunidad.
 
-3. Documentación funcional
-Función	Qué hace
-Escanear documento	Abre la cámara o la galería para capturar una foto del documento.
-Explicación simple	Gemini resume el documento en un máximo de 5 líneas, con nivel de lectura sencillo.
-Semáforo de riesgo	Clasifica el documento y cada punto de atención en verde, amarillo o rojo, y muestra qué dice el texto original y qué significa.
-Pasos pendientes	Lista las acciones concretas que la persona debe realizar.
-Fechas importantes	Extrae vencimientos y plazos del documento.
-Lectura en voz alta	Lee el resumen con voz (texto a voz) para quien no lee con facilidad.
-Pregúntale a tu documento	Permite hacer preguntas sobre el documento y recibir respuestas simples. 
+ClariDoc contribuye a la meta 10.2 del ODS 10 al promover la inclusión y facilitar el acceso a información comprensible. Asimismo, se relaciona con la meta 11.1 del ODS 11 al ayudar a comprender contratos de arrendamiento y documentos relacionados con servicios básicos.
 
-4. Documentación técnica
+3. DOCUMENTACIÓN FUNCIONAL
+
+Escanear documento:
+Permite tomar una fotografía o seleccionar un archivo desde la galería.
+
+Explicación simple:
+Gemini resume el documento utilizando lenguaje sencillo.
+
+Semáforo de atención:
+Clasifica los puntos de atención en verde, amarillo o rojo y explica su significado.
+
+Pasos pendientes:
+Muestra las acciones que debe realizar el usuario.
+
+Fechas importantes:
+Identifica vencimientos y plazos del documento.
+
+Lectura en voz alta:
+Reproduce el resumen mediante audio.
+
+Pregúntale a tu documento:
+Permite realizar preguntas y recibir respuestas sobre su contenido.
+
+4. DOCUMENTACIÓN TÉCNICA
+
 Arquitectura general
-El flujo va de la app móvil al backend y de ahí a Gemini; la respuesta regresa a la app ya estructurada.
-Paso	Componente	Qué ocurre
-1	App móvil (Flutter)	Cámara, pantallas y voz. Envía la foto al backend por HTTP.
-2	Backend en Python (FastAPI)	Recibe la foto y la manda a Gemini junto con un prompt.
-3	Gemini 2.5 Flash	Lee el documento y responde en JSON estructurado.
-4	App móvil	Muestra resumen, semáforo, pasos y fechas, y los lee en voz alta.
+
+ClariDoc utiliza una arquitectura en la que la aplicación móvil se comunica con un backend en Python, que procesa los documentos mediante Google Gemini.
+
+Paso 1. App móvil (Flutter):
+Captura o selecciona el documento y lo envía al backend mediante HTTP.
+
+Paso 2. Backend (FastAPI):
+Recibe la imagen y la envía a Gemini junto con las instrucciones correspondientes.
+
+Paso 3. Google Gemini 2.5 Flash:
+Analiza el documento y genera una respuesta estructurada en JSON.
+
+Paso 4. App móvil:
+Muestra el resumen, semáforo, pasos y fechas, además de permitir la lectura en voz alta.
 
 Stack tecnológico
-Capa	Tecnología
-App móvil	Flutter (Dart), image_picker, flutter_tts, http
-Backend	Python, FastAPI, Uvicorn, Pydantic
-Inteligencia artificial	Google Gemini 2.5 Flash, librería google-genai
-Control de versiones	Git y GitHub
-Editor	Visual Studio Code
 
-Cómo se integra Gemini
-1.	La app envía la foto del documento al backend.
-2.	El backend manda la imagen y un prompt a Gemini, un modelo multimodal de visión y lenguaje.
-3.	Gemini lee el documento y responde en JSON estructurado, validado con un esquema (resumen, nivel de riesgo, puntos de atención, pasos y fechas).
-4.	La app muestra los resultados y los lee en voz alta.
-5.	Para las preguntas del usuario, el backend vuelve a consultar a Gemini con el análisis como contexto.
-El prompt le indica a Gemini que use lenguaje sencillo, que no invente datos, que avise cuando falte información y que no dé asesoría legal, sino que sugiera consultar a un profesional cuando el riesgo sea alto.
+Aplicación móvil: Flutter y Dart.
+Paquetes de la aplicación: image_picker, flutter_tts y http.
+Backend: Python, FastAPI, Uvicorn y Pydantic.
+Inteligencia artificial: Google Gemini 2.5 Flash.
+Librería de Gemini: google-genai.
+Control de versiones: Git y GitHub.
+Editor de código: Visual Studio Code.
+
+Integración de Google Gemini
+
+1. La aplicación envía la fotografía del documento al backend.
+2. El backend envía la imagen y un prompt a Gemini.
+3. Gemini analiza el contenido y responde mediante un JSON estructurado con resumen, nivel de riesgo, puntos de atención, pasos y fechas.
+4. La aplicación presenta los resultados al usuario.
+5. Cuando el usuario realiza una pregunta, el backend vuelve a consultar a Gemini utilizando el análisis del documento como contexto.
+
+El prompt indica que Gemini debe utilizar lenguaje sencillo, evitar inventar información, señalar cuando falten datos y no proporcionar asesoría legal.
+
 Seguridad y privacidad
-•	La clave de API se guarda como variable de entorno (GOOGLE_API_KEY) y nunca dentro de la app ni del repositorio.
-•	Los documentos se procesan para generar la explicación y no se almacenan. 
+
+- La clave de API se configura mediante la variable de entorno GOOGLE_API_KEY.
+- La clave no debe incluirse directamente en la aplicación ni en el repositorio.
+- Los documentos se procesan para generar la explicación y no se almacenan, de acuerdo con el funcionamiento previsto del proyecto.
+
 Cómo ejecutar el proyecto
+
 Backend
+
 cd backend
 python -m venv .venv
-.venv\Scripts\activate          # Windows (Mac/Linux: source .venv/bin/activate)
+
+Activar el entorno virtual:
+
+Windows:
+.venv\Scripts\activate
+
+Mac / Linux:
+source .venv/bin/activate
+
+Instalar dependencias:
+
 pip install fastapi uvicorn python-multipart google-genai pydantic
-# Define la variable de entorno GOOGLE_API_KEY con tu clave de Gemini
+
+Configurar la variable de entorno GOOGLE_API_KEY con la clave de Gemini y ejecutar:
+
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
-App móvil
+Aplicación móvil
+
 cd app
 flutter pub get
 flutter run
-5. Manual de usuario
-¿Qué es ClariDoc?
-ClariDoc es una herramienta diseñada para ayudarte a entender documentos complicados, como recibos de servicios, avisos municipales, convocatorias o contratos, de forma clara, rápida y sin palabras difíciles.
-Solo necesitas tomar una fotografía o subir un archivo. La aplicación te mostrará:
-•	De qué trata el documento en palabras sencillas.
-•	Un semáforo de atención para identificar si requiere atención o es urgente.
-•	Pasos a seguir, fechas importantes y consejos prácticos.
-•	Una opción de audio para escuchar la explicación en español de México.
-•	Un chat para realizar preguntas sobre el documento.
-Antes de empezar
-Puedes utilizar ClariDoc desde el navegador de tu celular, tableta o computadora. Ten preparado tu documento impreso o un archivo en formato PNG, JPG, WEBP o PDF.
-Procura que el texto tenga buena iluminación y sea completamente legible.
-Paso a paso: ¿Cómo usar ClariDoc?
-1. Elige el tipo de explicación
-En la parte superior encontrarás dos opciones:
-•	Lenguaje claro cotidiano: explicación sencilla y directa.
-•	Lectura Fácil: frases cortas y palabras comunes, ideal para adultos mayores.
-2. Sube o fotografía tu documento
-Selecciona la opción que prefieras:
-•	Subir documento o aviso: elige una imagen o archivo PDF de tu dispositivo.
-•	Tomar foto: utiliza la cámara para fotografiar el documento.
-Después aparecerá una vista previa del archivo seleccionado.
-3. Traduce el documento
-Presiona el botón «Traducir a lenguaje claro» y espera mientras se analiza la información.
-4. Revisa y escucha los resultados
-ClariDoc organizará la información de la siguiente manera:
-•	Verde: información sin urgencia inmediata.
-•	Amarillo: requiere atención, como un pago próximo o una condición importante.
-•	Rojo: indica una situación urgente, como una fecha límite cercana o una posible multa.
-También encontrarás un resumen, recomendaciones, puntos importantes, pasos a seguir y fechas. Si lo deseas, presiona el botón Play para escuchar la explicación.
-5. Haz preguntas sobre tu documento
-En la sección «Pregúntale a tu documento» puedes escribir dudas como: «¿Cuándo vence?», «¿Qué documentos necesito llevar?» o «¿A dónde tengo que acudir?».
-Consejos para un mejor resultado
-•	Evita sombras y reflejos al tomar fotografías.
-•	Asegúrate de que las páginas estén completas y sean legibles.
-•	Para analizar otro documento, carga el nuevo archivo y vuelve a presionar «Traducir a lenguaje claro».
-Privacidad y aviso importante
-Privacidad: los documentos se procesan durante la consulta y no se almacenan en bases de datos permanentes. Evita compartir información sensible cuando no sea necesario.
-Aviso: ClariDoc es una herramienta de apoyo informativo. No sustituye la asesoría legal, contable, médica o institucional cuando sea necesaria.
 
-Qué hace inclusiva a la app
-•	Lenguaje sencillo: las explicaciones se redactan en un nivel de lectura accesible.
-•	Lectura en voz alta: apoya a personas con baja alfabetización o dificultad visual.
-•	Interfaz clara: botones grandes, letra grande y semáforo de color con texto de apoyo, para no depender solo del color. 
-•	Pensada para quien la usa por primera vez, sin registros complicados.
-•	Idioma: español. 
+5. MANUAL DE USUARIO
+
+¿Qué es ClariDoc?
+
+ClariDoc es una herramienta diseñada para ayudarte a entender documentos complicados, como recibos de servicios, avisos municipales, convocatorias o contratos, de forma clara, rápida y sin palabras difíciles.
+
+Solo necesitas tomar una fotografía o subir un archivo. La aplicación te mostrará:
+
+- Una explicación del documento en palabras sencillas.
+- Un semáforo de atención.
+- Pasos a seguir, fechas importantes y recomendaciones.
+- Una opción de audio en español de México.
+- Un chat para realizar preguntas sobre el documento.
+
+Antes de empezar
+
+Puedes utilizar ClariDoc desde el navegador de tu celular, tableta o computadora. Ten preparado tu documento impreso o un archivo en formato PNG, JPG, WEBP o PDF.
+
+Procura que el texto tenga buena iluminación y sea legible.
+
+Paso a paso: ¿Cómo usar ClariDoc?
+
+1. Elige el tipo de explicación
+
+- Lenguaje claro cotidiano: explicación sencilla y directa.
+- Lectura Fácil: frases cortas y palabras comunes, ideal para adultos mayores.
+
+2. Sube o fotografía tu documento
+
+- Subir documento o aviso: selecciona una imagen o archivo PDF.
+- Tomar foto: utiliza la cámara para fotografiar el documento.
+
+3. Traduce el documento
+
+Presiona el botón "Traducir a lenguaje claro" y espera mientras se analiza la información.
+
+4. Revisa y escucha los resultados
+
+- Verde: información sin urgencia inmediata.
+- Amarillo: requiere atención, como un pago próximo.
+- Rojo: indica una situación urgente, como una fecha límite cercana o una posible multa.
+
+También encontrarás un resumen, recomendaciones, puntos importantes, pasos a seguir y fechas. Puedes presionar el botón Play para escuchar la explicación.
+
+5. Haz preguntas sobre tu documento
+
+En la sección "Pregúntale a tu documento" puedes escribir dudas como "¿Cuándo vence?" o "¿Qué documentos necesito llevar?".
+
+Consejos para un mejor resultado
+
+- Evita sombras y reflejos al tomar fotografías.
+- Asegúrate de que las páginas estén completas y sean legibles.
+- Para analizar otro documento, carga el nuevo archivo y vuelve a presionar "Traducir a lenguaje claro".
+
+Privacidad y aviso importante
+
+Los documentos se procesan durante la consulta y no se almacenan en bases de datos permanentes. Evita compartir información sensible cuando no sea necesario.
+
+ClariDoc es una herramienta de apoyo informativo y no sustituye la asesoría legal, contable, médica o institucional cuando sea necesaria.
+
+6. ACCESIBILIDAD E IMPACTO
+
+¿Qué hace inclusiva a ClariDoc?
+
+- Lenguaje sencillo: explicaciones fáciles de comprender.
+- Lectura en voz alta: apoya a personas con baja alfabetización o dificultad visual.
+- Interfaz clara: botones y letras grandes, además de un semáforo con texto de apoyo.
+- Fácil de utilizar: pensada para personas que utilizan la aplicación por primera vez.
+- Idioma: explicaciones en español.
+
 Impacto que busca generar
-•	Que más personas entiendan lo que firman y eviten cláusulas abusivas.
-•	Reducir errores y riesgos por no comprender recetas, recibos y trámites.
-•	Acercar a adultos mayores, personas con baja escolaridad y migrantes a información que antes les era ajena.
-•	A futuro: alianzas con municipios, bibliotecas, ONG y módulos de atención ciudadana. 
+
+- Ayudar a que más personas comprendan lo que firman y puedan identificar condiciones importantes.
+- Reducir errores y riesgos por no comprender recetas, recibos y trámites.
+- Facilitar el acceso a la información para adultos mayores, personas con baja escolaridad y migrantes.
+- Promover futuras alianzas con municipios, bibliotecas, organizaciones y módulos de atención ciudadana.
+
+7. REFERENCIAS
+
+Fuentes estadísticas y Objetivos de Desarrollo Sostenible
+
+Instituto Nacional de Estadística y Geografía (INEGI). (2020). Escolaridad. Censo de Población y Vivienda 2020.
+https://www.cuentame.inegi.org.mx/poblacion/escolaridad.aspx
+
+Naciones Unidas. (s. f.). Objetivo 10: Reducir las desigualdades.
+https://www.un.org/sustainabledevelopment/es/inequality/
+
+Naciones Unidas. (s. f.). Objetivo 11: Ciudades y comunidades sostenibles.
+https://www.un.org/sustainabledevelopment/es/cities/
+
+Documentación de tecnologías
+
+Google AI for Developers. (s. f.). Gemini API: Documentación oficial.
+https://ai.google.dev/gemini-api/docs
+
+Flutter. (s. f.). Documentación oficial de Flutter.
+https://docs.flutter.dev/
+
+FastAPI. (s. f.). Documentación oficial de FastAPI.
+https://fastapi.tiangolo.com/
+
+Uvicorn. (s. f.). Documentación oficial de Uvicorn.
+https://www.uvicorn.org/
+
+Flutter Community. (s. f.). image_picker: Flutter package.
+https://pub.dev/packages/image_picker
+
+eyedeadevelopment. (s. f.). flutter_tts: Flutter package.
+https://pub.dev/packages/flutter_tts
+
+Dart. (s. f.). http package.
+https://pub.dev/packages/http
+
+--------------------------------------------------
+
+ClariDoc — ¡Firma lo que entiendes!
+
+Equipo Sinapsis | Campus Coyoacán | Hackatón Nacional UVM 2026
