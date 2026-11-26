@@ -6,7 +6,7 @@ App móvil que usa Google Gemini para explicar documentos (contratos, recetas, r
 Hackatón	Hackatón Nacional UVM 2026: ¡Impulsa el Futuro con IA!
 Equipo	Sinapsis
 Campus	Coyoacán
-Integrantes	Rubí, Luis y Octavio
+Integrantes	Rubí, Luis Felipe Ruiz Dorantes y Octavio
 
 1. Resumen ejecutivo
 ClariDoc es una app móvil que ayuda a entender documentos difíciles, como contratos, recetas, recibos y trámites. La persona toma una foto y, con Google Gemini, recibe una explicación en lenguaje sencillo, una lectura en voz alta, un semáforo de riesgo y los pasos y fechas pendientes. Apoya a adultos mayores, personas con baja alfabetización y migrantes. Es innovadora porque une visión, lenguaje y voz de Gemini en un solo flujo pensado para reducir la desigualdad en el acceso a la información.
