@@ -1,0 +1,10 @@
+{
+  "description": "Ayuda a adultos mayores y usuarios no técnicos a escanear documentos, entender sus términos en lenguaje sencillo y resolver dudas con confianza.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
