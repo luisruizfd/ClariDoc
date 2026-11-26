@@ -246,20 +246,9 @@ https://ai.google.dev/gemini-api/docs
 Flutter. (s. f.). Documentación oficial de Flutter.
 https://docs.flutter.dev/
 
-FastAPI. (s. f.). Documentación oficial de FastAPI.
-https://fastapi.tiangolo.com/
-
-Uvicorn. (s. f.). Documentación oficial de Uvicorn.
-https://www.uvicorn.org/
-
 Flutter Community. (s. f.). image_picker: Flutter package.
 https://pub.dev/packages/image_picker
 
-eyedeadevelopment. (s. f.). flutter_tts: Flutter package.
-https://pub.dev/packages/flutter_tts
-
-Dart. (s. f.). http package.
-https://pub.dev/packages/http
 
 --------------------------------------------------
 
