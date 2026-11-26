@@ -1,0 +1,2 @@
+Probar prototipo interactivo (Figma Make)
+[Abrir ClariDoc Document Assistant en pantalla completa](https://www.figma.com/make/VhkEkZXPvE4NM5CeDuAgTx/ClariDoc-Document-Assistant?code-node-id=0-6&p=f&t=Qcq7XNiSFynEaU44-0&fullscreen=1)
